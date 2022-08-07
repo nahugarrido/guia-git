@@ -140,8 +140,11 @@ Se debe crear un repositorio en github
 
 git remote add origin https://github.com/nahugarrido/name.git
 
-git push -u origin main
+git push -u remote local
 
+    - remote es la rama remota a la que subimos nuestra rama local 
+    
+    
     - Al crear el repositorio se nos muestra una guia de que debemos hacer para conectarlo con nuestro repositorio local
 
 
