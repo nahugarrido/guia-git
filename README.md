@@ -2,6 +2,10 @@
 
 Guia creada con el fin de facilitar el uso y comprensión de git y github.
 
+<p align="center">
+<img src="https://www.solucionex.com/sites/default/files/posts/imagen/git.jpg" style="max-width: 100%; display: inline-block;" />
+</p>
+
 ## Apéndice
 
 - Configurar git
