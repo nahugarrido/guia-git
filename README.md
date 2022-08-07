@@ -101,7 +101,10 @@ Se debe crear un archivo con el nombre ".gitignore"
     - Se considera una buena práctica agregar este archivo a nuestra instancia
 
 ## Ramas
-<img src="https://www.efectoapple.com/wp-content/uploads/2018/04/11.-git-branches-1024x648.png" style="max-width: 100%; display: inline-block;" />
+
+<p align="center">
+<img src="https://www.pngitem.com/pimgs/m/194-1949056_git-merge-branch-hd-png-download.png" style="max-width: 100%; display: inline-block;" />
+</p>
 
 - Ver ramas:
 
