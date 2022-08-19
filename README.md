@@ -133,6 +133,10 @@ git checkout nombre
 git merge nombre
 
     - Si queremos combinar una rama con nuestra rama main debemos ejecutar git merge nombre desde la rama main
+    
+- Borrar rama:
+
+Si queremos borrar una rama debemos utilizar: git branch -d nombre
 
 ## Conectar con Github
 
