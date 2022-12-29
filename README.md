@@ -37,9 +37,9 @@
 - Configurar git: 
  
 
-git --config --global user.name "Nahuel Garrido"
+git config --global user.name "Nahuel Garrido"
 
-git --config --global user.email garridonahuel8@gmail.com
+git config --global user.email garridonahuel8@gmail.com
 
     - --global indica que la configuración se debe efectuar globalmente y no únicamente en el proyecto que nos encontramos actualmente
 
