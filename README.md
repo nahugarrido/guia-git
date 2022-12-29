@@ -73,6 +73,22 @@ git commit -m "mensaje"
 Antes de realizar un commit debemos revisar el estado del repositorio para evitar errores.
 
     - Confirma los cambios en la instancia
+    
+- Guardar cambios para después: (sin realizar un commit)
+
+git stash
+
+- Continuar trabajando con los cambios para después: (lo saca de la pila)
+
+git stash pop
+
+- Crear un tag:
+
+git tag -a v0.1.0 -m "mensaje"
+
+- Pushear un tag:
+
+git push origin v0.1.0
 
 - Eliminar un archivo:
 
@@ -85,13 +101,6 @@ Otra alternativa:
 git rm archivo.txt
 
     - Elimina el archivo sin necesidad de confirmación
-    
-- Restaurar un archivo:
-
-git restore archivo.txt
-
-    - Nos permite recuperar archivos eliminados incluso, desde una etapa antes de hacer commit.
-
 
 - Ignorar un archivo:
 
@@ -102,6 +111,25 @@ Se debe crear un archivo con el nombre ".gitignore"
     ejemplo: archivo.txt carpeta/
 
     - Se considera una buena práctica agregar este archivo a nuestra instancia
+  
+## Deshacer cambios
+
+- Restaurar un archivo:
+
+git restore archivo.txt
+
+    - Nos permite recuperar archivos eliminados incluso, desde una etapa antes de hacer commit.
+
+- Cancelar un commit:
+
+git revert bae37d8
+
+    - Donde bae37d8 es el hask del commit que queremos revertir
+    
+    
+- Cancelar un add: (conservando modificaciones)
+
+git restore --staged archivo.txt
 
 ## Ramas
 
